@@ -4,7 +4,7 @@ public class Buzzer : MonoBehaviour
 {
     private void OnEnable()
     {
-        // Timer class¿¡ ¼±¾ğÇÑ delegate¿¡ local method ÇÒ´ç
+        // Timer classì— ì„ ì–¸í•œ delegateì— local method í• ë‹¹
         CountdownTimer.OnTimerStarted += PlayStartBuzzer;
         CountdownTimer.OnTimerEnded += PlayEndBuzzer;
     }

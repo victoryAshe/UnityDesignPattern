@@ -11,7 +11,7 @@ public class SamplePlayDataSerializer
 
     private void SerializePlayerData(PlayerData playerData)
     {
-        // PlayerData Instance Serialize (Á÷·ÄÈ­)
+        // PlayerData Instance Serialize (ì§ë ¬í™”)
         BinaryFormatter bf = new BinaryFormatter();
         FileStream file = File.Create(Application.persistentDataPath + "/playerData.dat");
         bf.Serialize(file, playerData);
